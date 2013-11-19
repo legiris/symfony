@@ -17,7 +17,7 @@ class ArticleController extends BaseController
      * @param int $id
      * @return array
      */
-	public function ArticleAction($id)
+    public function ArticleAction($id)
     {
         //return new Response('<html><body>Hello ' . $id . '</body></html>');
         return $this->render('AcmeBlogBundle:Article:article.html.twig', array(
