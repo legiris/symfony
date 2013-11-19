@@ -18,9 +18,9 @@
   
   {{ form_start(form) }}
     <table>
-		<tr><td>{{ form_label(form.nickname, 'Jméno:') }}&nbsp;</td><td>{{ form_widget(form.nickname) }} *(max. 30 znaků)</td></tr>
-		<tr><td class="top">{{ form_label(form.text, 'Text:') }}</td><td class="top">{{ form_widget(form.text) }} *(max. 2500 znaků)</td></tr>
-		<tr><td></td><td>{{ form_widget(form.submit, { 'label': 'Přidat komentář' }) }}</td></tr>	  
+    <tr><td>{{ form_label(form.nickname, 'Jméno:') }}&nbsp;</td><td>{{ form_widget(form.nickname) }} *(max. 30 znaků)</td></tr>
+        <tr><td class="top">{{ form_label(form.text, 'Text:') }}</td><td class="top">{{ form_widget(form.text) }} *(max. 2500 znaků)</td></tr>
+    <tr><td></td><td>{{ form_widget(form.submit, { 'label': 'Přidat komentář' }) }}</td></tr>	  
     </table>  
   {{ form_end(form) }}
 
