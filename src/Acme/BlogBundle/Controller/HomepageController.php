@@ -11,7 +11,7 @@ class HomepageController extends BaseController
 	 */
     public function indexAction()
     {	
-		return $this->render('AcmeBlogBundle:Homepage:index.html.twig', array(
+        return $this->render('AcmeBlogBundle:Homepage:index.html.twig', array(
 			'articles' => $this->getDoctrine()->getRepository('AcmeBlogBundle:Article')
 				->findBy(
 					array(),
